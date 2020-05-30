@@ -9718,6 +9718,25 @@ header.masthead .btn {
   font-weight: 700;
 }
 
+#portfolio .card {
+  position: relative;
+}
+
+#portfolio .card:hover .card-body-hidden {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+#portfolio .card-body-hidden {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(142, 117, 221, 0.9);
+}
+
 #specialties h1 {
   font-weight: 700;
 }
