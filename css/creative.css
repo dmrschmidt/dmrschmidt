@@ -9592,6 +9592,20 @@ hr.light {
   padding: 0;
 }
 
+.page-divider {
+  background-image: url("/img/bg-masthead.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-divider .data {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: rgba(230, 230, 230, 0.9);
@@ -9701,6 +9715,10 @@ header.masthead .btn {
 }
 
 #portfolio h1 {
+  font-weight: 700;
+}
+
+#specialties h1 {
   font-weight: 700;
 }
 
