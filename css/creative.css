@@ -9718,6 +9718,10 @@ header.masthead .btn {
   position: relative;
 }
 
+#portfolio .card a {
+  color: white;
+}
+
 #portfolio .card.hidden {
   display: none;
 }

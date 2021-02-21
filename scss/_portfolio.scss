@@ -6,6 +6,10 @@
   .card {
     position: relative;
 
+    a {
+      color: white;
+    }
+
     &.hidden {
       display: none;
     }
