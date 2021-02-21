@@ -39,4 +39,17 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $('.portfolio-selection .nav-link').click(function (event) {
+    event.preventDefault();
+    let type = $(event.target).data("type");
+    $('.portfolio-selection .nav-link').removeClass('active');
+    $(event.target).addClass('active');
+    if (type !== "") {
+      $(`.card`).addClass('hidden');
+      $(`.card.${type}`).removeClass('hidden');
+    } else {
+      $(`.card`).removeClass('hidden');
+    }
+  });
+
 })(jQuery); // End of use strict

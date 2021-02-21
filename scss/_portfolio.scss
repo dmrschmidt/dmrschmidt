@@ -6,6 +6,10 @@
   .card {
     position: relative;
 
+    &.hidden {
+      display: none;
+    }
+
     &:hover {
       .card-body-hidden {
         transition: opacity 0.5s ease;

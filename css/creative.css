@@ -9718,6 +9718,10 @@ header.masthead .btn {
   position: relative;
 }
 
+#portfolio .card.hidden {
+  display: none;
+}
+
 #portfolio .card:hover .card-body-hidden {
   transition: opacity 0.5s ease;
   opacity: 1;
